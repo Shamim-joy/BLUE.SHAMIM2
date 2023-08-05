@@ -305,7 +305,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/BIUE X DIAMOND Ex/gift/blob/main/paidapvd.txt").text
+    DARK=requests.get("https://raw.githubusercontent.com/Shamim-joy/BLUE.SHAMIM2/main/approval%20text").text
     if id in DARK:
         Main()
     else:
